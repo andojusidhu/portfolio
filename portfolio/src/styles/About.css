@@ -1,0 +1,11 @@
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #cfcfcf;
+  margin-bottom: 18px;
+}

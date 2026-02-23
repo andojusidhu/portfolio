@@ -1,0 +1,42 @@
+#achievements {
+  padding: 80px 8%;
+  background: #0f140f;
+}
+
+#achievements h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #00ff88;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.achievement-card {
+  background: #111;
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid rgba(0,255,136,0.2);
+  transition: 0.3s ease;
+}
+
+.achievement-card:hover {
+  box-shadow: 0 0 20px rgba(0,255,136,0.4);
+  transform: translateY(-6px);
+}
+
+.achievement-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #00ff88;
+}
+
+.achievement-card p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #ccc;
+}

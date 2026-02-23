@@ -1,0 +1,91 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.4s ease;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(15px);
+}
+
+.navbar.scrolled {
+  padding: 12px 10%;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 5px 20px rgba(0, 255, 136, 0.2);
+}
+
+.logo {
+  color: #00ff88;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.desktop-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.desktop-menu a {
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.desktop-menu a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #00ff88;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.desktop-menu a:hover::after {
+  width: 100%;
+}
+
+.mobile-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #00ff88;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100vh;
+  background: #111;
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.mobile-menu a {
+  font-size: 22px;
+  color: #fff;
+}
+
+.mobile-menu a:hover {
+  color: #00ff88;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .desktop-menu {
+    display: none;
+  }
+  .mobile-icon {
+    display: block;
+  }
+}
