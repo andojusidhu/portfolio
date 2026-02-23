@@ -1,0 +1,37 @@
+.timeline {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.timeline-item {
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 4px solid #00ff88;
+  transition: 0.3s;
+}
+
+.timeline-item:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.6);
+}
+
+.timeline-item h3 {
+  color: #00ff88;
+}
+
+.timeline-item span {
+  font-weight: bold;
+}
+
+.duration {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.timeline-item ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}

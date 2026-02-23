@@ -1,0 +1,70 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 35px; /* slightly more breathing space */
+}
+
+.project-card {
+  background: rgba(17,17,17,0.8);
+  padding: 30px; /* increased padding */
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0,255,136,0.2);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 25px rgba(0,255,136,0.5);
+}
+
+/* Title */
+.project-card h3 {
+  color: #00ff88;
+  font-size: 1.25rem; /* improved hierarchy */
+  font-weight: 600;
+  margin-bottom: 12px; /* spacing below title */
+  letter-spacing: 0.5px;
+}
+
+/* Description (if using p tag) */
+.project-card p {
+  font-size: 0.95rem;
+  line-height: 1.6; /* better readability */
+  margin-bottom: 15px;
+  color: #dcdcdc;
+}
+
+/* Tech stack */
+.project-card span {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.85rem; /* slightly smaller */
+  opacity: 0.75;
+  letter-spacing: 0.4px;
+}
+
+/* Links section */
+.project-links {
+  margin-top: 22px; /* better separation */
+  display: flex;
+  gap: 14px;
+}
+
+/* Buttons */
+.project-links a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 16px; /* slightly bigger for balance */
+  border-radius: 8px;
+  background: rgba(0, 255, 136, 0.1);
+  border: 1px solid #00ff88;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.project-links a:hover {
+  background: #00ff88;
+  color: black;
+}
