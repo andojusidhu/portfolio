@@ -1,6 +1,6 @@
 #certifications {
   padding: 80px 8%;
-  background: #111;
+  background:black;
 }
 
 #certifications h2 {
@@ -17,7 +17,7 @@
 }
 
 .cert-card {
-  background: #111;
+  background: black;
   padding: 25px;
   border-radius: 14px;
   border: 1px solid rgba(0,255,136,0.2);

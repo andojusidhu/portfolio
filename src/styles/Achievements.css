@@ -1,6 +1,6 @@
 #achievements {
   padding: 80px 8%;
-  background: #0f140f;
+  background: black;
 }
 
 #achievements h2 {
@@ -17,7 +17,7 @@
 }
 
 .achievement-card {
-  background: #111;
+  background: black;
   padding: 25px;
   border-radius: 14px;
   border: 1px solid rgba(0,255,136,0.2);
