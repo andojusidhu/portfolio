@@ -48,7 +48,7 @@ function Contact() {
 
           <div className="social-links">
             <a 
-              href="https://github.com/YOUR_USERNAME" 
+              href="https://github.com/andojusidhu" 
               target="_blank" 
               rel="noopener noreferrer"
             >
