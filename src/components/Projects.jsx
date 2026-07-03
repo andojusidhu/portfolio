@@ -3,6 +3,35 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
+
+    {
+    title: "AI-Powered Real-Time Fitness Coach",
+    desc: "Full-stack AI fitness application that detects exercise posture, counts repetitions, and delivers live form correction using computer vision and machine learning.",
+    tech: "React, Node.js, Express, TensorFlow.js, MediaPipe, OpenCV, MongoDB",
+    github: "https://github.com/andojusidhu/Realtime-AI-GYM-Coach",
+    live: ""
+    },
+    {
+  title: "SnapClass - Smart Classroom Platform",
+  desc: "A modern classroom management platform that enables students and teachers to manage classes, assignments, notes, and academic activities through an intuitive web interface.",
+  tech: "React, Node.js, Express.js, MongoDB, JavaScript",
+  github: "https://github.com/andojusidhu/snap-class-sidhu",
+  live: ""
+},
+{
+  title: "Diabetes Prediction using Machine Learning",
+  desc: "Machine learning application that predicts diabetes risk based on patient health parameters using data preprocessing, model training, and predictive analytics.",
+  tech: "Python, Scikit-learn, Pandas, NumPy, Matplotlib, Jupyter Notebook",
+  github: "https://github.com/andojusidhu/Diabetes_Prediction_ML",
+  live: ""
+},
+{
+  title: "Student Result Prediction System",
+  desc: "Machine learning model that predicts student academic performance using historical educational data, helping analyze and improve learning outcomes.",
+  tech: "Python, Scikit-learn, Pandas, NumPy, Matplotlib, Jupyter Notebook",
+  github: "https://github.com/andojusidhu/student_result_ML",
+  live: ""
+},
     {
     title: "Real-Time MERN Ecommerce Platform",
     desc: "Full-stack eCommerce web application with authentication, admin dashboard, real-time order management, and scalable backend architecture.",
