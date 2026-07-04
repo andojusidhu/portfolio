@@ -2,7 +2,7 @@ import "../styles/Hero.css";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 import sidhu from "../assets/sidhu.jpg";
-import resume from "../assets/sidhu-resume.pdf";
+import resume from "../assets/software-engineer-resume.pdf";
 
 function Hero() {
   const scrollToProjects = () => {
@@ -19,7 +19,7 @@ function Hero() {
     if (confirmDownload) {
       const link = document.createElement("a");
       link.href = resume;
-      link.download = "Andoju-Sidhu-Ganesh-Chary-Resume.pdf";
+      link.download = "Software-Engineer-Resume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -52,6 +52,9 @@ function Hero() {
             <Typewriter
               words={[
                 "BTech CSE Student",
+                "Software Engineer",
+                "Machine Learning Enthusiast",
+                "Data Science Explorer",
                 "MERN Stack Developer",
                 "Frontend Specialist",
               ]}
