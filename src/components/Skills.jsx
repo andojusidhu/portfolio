@@ -9,6 +9,8 @@ import {
 } from "react-icons/fa";
 
 import {
+  SiHtml5,
+  SiCss3,
   SiJavascript,
   SiMongodb,
   SiExpress,
@@ -25,8 +27,10 @@ const skills = [
   {
     title: "Frontend",
     items: [
-      { name: "React.js", icon: <FaReact /> },
-      { name: "JavaScript", icon: <SiJavascript /> }
+      { name: "HTML5", icon: <SiHtml5 /> },
+      { name: "CSS3", icon: <SiCss3 /> },
+      { name: "JavaScript", icon: <SiJavascript /> },
+      { name: "React.js", icon: <FaReact /> }
     ]
   },
   {
@@ -47,13 +51,14 @@ const skills = [
     title: "Programming",
     items: [
       { name: "Java", icon: <FaJava /> },
+      { name: "JavaScript", icon: <SiJavascript /> },
       { name: "Python", icon: <SiPython /> }
     ]
   },
   {
     title: "Data Science & ML Tools",
     items: [
-      { name: "Jupyter", icon: <SiJupyter /> },
+      { name: "Jupyter Notebook", icon: <SiJupyter /> },
       { name: "NumPy", icon: <SiNumpy /> },
       { name: "Pandas", icon: <SiPandas /> },
       { name: "Matplotlib", icon: <TbChartDots /> }
@@ -81,6 +86,7 @@ function Skills() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
           >
             <h3>{category.title}</h3>
 
