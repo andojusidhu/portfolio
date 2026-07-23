@@ -1,16 +1,168 @@
-# React + Vite
+# 💼 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This portfolio showcases my skills, projects, technical experience, and journey as a software developer.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [Portfolio Website](https://portfolio-sidhuchary.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💻 **GitHub Repository:** [Portfolio](https://github.com/andojusidhu/portfolio)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 About the Project
 
-## Expanding the ESLint configuration
+This is my personal developer portfolio built to showcase my technical skills, projects, and experience in web development.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The portfolio provides an overview of my development journey and allows recruiters, developers, and visitors to explore my work and learn more about my skills.
+
+---
+
+## ✨ Features
+
+* 👨‍💻 Personal introduction and developer profile
+* 🛠️ Technical skills and technologies
+* 📂 Projects showcase
+* 📱 Responsive design for different screen sizes
+* 🎨 Clean and modern user interface
+* 🌐 Live project deployment
+* 📞 Contact section for connecting with me
+* 🔗 Links to professional and social profiles
+
+---
+
+## 🛠️ Technologies Used
+
+* **React.js** – Frontend development
+* **Vite** – Fast development and build tool
+* **JavaScript** – Application logic
+* **HTML5** – Website structure
+* **CSS3** – Styling and responsive design
+* **ESLint** – Code quality and linting
+* **Netlify** – Deployment and hosting
+
+---
+
+## 📁 Project Structure
+
+```text
+portfolio/
+│
+├── public/
+│   └── assets/
+│
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation and Setup
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/andojusidhu/portfolio.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd portfolio
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL shown in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🏗️ Build for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 Live Demo
+
+Check out the deployed portfolio:
+
+👉 https://portfolio-sidhuchary.netlify.app/
+
+---
+
+## 📸 Screenshots
+
+You can add screenshots of your portfolio here.
+
+```markdown
+![Portfolio Screenshot](./public/assets/portfolio-screenshot.png)
+```
+
+---
+
+## 📌 Future Improvements
+
+* Add more projects and case studies
+* Improve accessibility
+* Add animations and interactive UI elements
+* Add a downloadable resume
+* Add a contact form with backend integration
+* Add a blog section
+* Improve SEO and performance
+
+---
+
+## 👨‍💻 Author
+
+**Andoju Sidhu Ganesh Chary**
+
+B.Tech Student | Software Developer | AI/ML Enthusiast
+
+### Connect With Me
+
+* 💻 GitHub: [andojusidhu](https://github.com/andojusidhu)
+* 🌐 Portfolio: [portfolio-sidhuchary.netlify.app](https://portfolio-sidhuchary.netlify.app/)
+
+---
+
+## ⭐ Show Your Support
+
+If you like this portfolio project, consider giving the repository a ⭐ on GitHub!
+
+Thank you for visiting my portfolio! 🚀
